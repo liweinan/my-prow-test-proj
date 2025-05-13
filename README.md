@@ -1,4 +1,4 @@
-# my-org/my-repo
+## my-org/my-repo
 
 A minimal Go project demonstrating Prow integration for presubmit testing.
 
