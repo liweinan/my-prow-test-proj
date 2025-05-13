@@ -1,12 +1,12 @@
 presubmits:
-  my-org/my-repo:
-  - name: unit-test
-    always_run: true
-    decorate: true
-    spec:
-      containers:
-      - image: golang:1.18
-        command:
-        - go
-        args:
-        - test 
+  liweinan/my-prow-test-proj:  # Update this to match your repository
+    - name: unit-test
+      always_run: true
+      decorate: true
+      spec:
+        containers:
+          - image: golang:1.18
+            command:
+              - go
+            args:
+              - test
